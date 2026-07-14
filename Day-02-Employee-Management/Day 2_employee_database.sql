@@ -1,6 +1,33 @@
+/*
+==================================================
+Project      : Employee Management System
+Version      : 1.0
+Day : 02
+Author       : Jayashree S
+Database     : MySQL
+Description  : A beginner SQL project demonstrating
+               database creation, CRUD operations,
+               filtering, sorting, aggregation,
+               updates, and table modifications.
+Topics Covered:
+- SELECT
+- WHERE
+- ORDER BY
+- GROUP BY
+- HAVING
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- Aggregate + JOIN
+- UPDATE
+- DELETE
+- Basic Subqueries
+- Correlated Subqueries
+Created On   : July 2026
+==================================================
+*/
 create database employee_management; -- create a database
 use employee_management; -- use the current database
-show schemas;
 -- create department table 
 create table department(
 department_id int primary key,
